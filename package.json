@@ -1,0 +1,22 @@
+{
+  "name": "openbusiness",
+  "version": "1.0.0",
+  "description": "Platform to expand open source principles to every part of a business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briggsmichaelr/OpenBusiness.git"
+  },
+  "author": "Michael Briggs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briggsmichaelr/OpenBusiness/issues"
+  },
+  "homepage": "https://github.com/briggsmichaelr/OpenBusiness#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
