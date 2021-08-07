@@ -37,7 +37,10 @@ main().catch(console.error);
     databasesList.databases.forEach(db => console.log(` - ${db.name}`));
 };*/
 
-app.get('/', (req, res) => res.send('Hello from the Open World!'))
+app.get('/', (req, res) => res.send('Hello from the Open World!'));
+app.get('/about/', (req,res) =>{
+    res.render('about')
+})
 
 
 app.listen(port, () => console.log(`Open Business app listening at http://localhost:${port}`))
