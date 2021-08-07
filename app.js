@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+app.set('view engine', 'ejs');
 const {DB_USER, DB_PASS, DB_CLUSTER} = require('./secret.js')
 
 const { MongoClient } = require('mongodb');
@@ -37,5 +38,6 @@ main().catch(console.error);
 };*/
 
 app.get('/', (req, res) => res.send('Hello from the Open World!'))
+
 
 app.listen(port, () => console.log(`Open Business app listening at http://localhost:${port}`))
