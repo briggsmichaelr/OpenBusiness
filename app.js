@@ -39,8 +39,10 @@ main().catch(console.error);
 
 app.get('/', (req, res) => res.send('Hello from the Open World!'));
 app.get('/about/', (req,res) =>{
-    res.render('about')
+    res.render('about');
 })
-
+app.get('/team/',function(req,res) {
+    res.render("team.ejs");
+} )
 
 app.listen(port, () => console.log(`Open Business app listening at http://localhost:${port}`))
