@@ -50,9 +50,21 @@ app.get('/about/', (req,res) =>{
 app.get('/login/', (req,res) =>{
     res.render('login');
 })
-app.post('/login_request/', (req,res) =>{
-    let username = req.body.username;
+app.post('/login_request/', async (req,res) =>{
+    let username = req.body.username_name; 
+    await client.connect();
+    let db = client.db("OB");
+    let users = db.collection("users");
 
+    let user = await users.find({username: username});
+    user = await user.toArray();
+
+    if (user.length > 0) { 
+        res.redirect ('/about')
+    } 
+    else {
+        res.redirect ('/signup')
+    }
 })
 app.get('/signup/',(req,res)=>{
     res.render('signup');
