@@ -62,7 +62,7 @@ app.get('/team/',function(req,res) {
 } );
 app.post('/signup_request/', async (req,res) =>{
     console.log(req.body);
-    let username = req.body.username;
+    let username = req.body.username_name;
     console.log(username);
     try {
         // Connect to the MongoDB cluster
