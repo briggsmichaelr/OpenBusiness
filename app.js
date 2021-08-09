@@ -41,6 +41,9 @@ app.get('/', (req, res) => res.send('Hello from the Open World!'));
 app.get('/about/', (req,res) =>{
     res.render('about');
 })
+app.get('/login/', (req,res) =>{
+    res.render('login');
+})
 app.get('/team/',function(req,res) {
     res.render("team.ejs");
 } )
