@@ -1,20 +1,21 @@
-<title>About Open Business</title>
 <!DOCTYPE html>
 <html>
    <head>
-      <title>HTML Backgorund Color</title>
+      <title>About Open Business</title>
    </head>
-   <body style="background-color:rgb(128, 136, 179);">
-      <h1>Products</h1>
-      <p>We have developed more than 10 products till now.</p>
+   <body>
+      <% if(user) {%>
+         <div>Hello <%=user%>, we are open!</div>
+      <% } else { %>
+         <div>We are open!</div>
+      <% } %>
+      <div>Update this code as you see fit!</div>
+      <div>OpenBusiness is a student/family made organisation that is devoted to being
+         honest and open. We are hoping to make templates for companies to use in order to 
+         become more open to their clients as well as employees.
+         We hope to make the future of companies more open in order to more easily discover and amend flaws
+         as well as have constant feedback from those interested in provicding feedback which will allow 
+         ideas to flow more freely and progress to be acheived more swiftly.
+      </div>
    </body>
 </html>
-<div>We are open!</div>
-<div>Update this code as you see fit!</div>
-<div>OpenBusiness is a student/family made organisation that is devoted to being
-    honest and open. We are hoping to make templates for companies to use in order to 
-    become more open to their clients as well as employees.
-    We hope to make the future of companies more open in order to more easily discover and amend flaws
-    as well as have constant feedback from those interested in provicding feedback which will allow 
-    ideas to flow more freely and progress to be acheived more swiftly.
-</div>

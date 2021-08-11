@@ -1,6 +1,13 @@
 const express = require('express')
 var bodyParser = require('body-parser');
-const app = express()
+var session = require('express-session')
+const app = express();
+app.use(session(
+    {secret: 'my secret',
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false }
+}));
 const port = 3000
 app.use(express.static('public'));
 app.use(bodyParser.json());
@@ -45,7 +52,9 @@ main().catch(console.error);
 
 app.get('/', (req, res) => res.send('Hello from the Open World!'));
 app.get('/about/', (req,res) =>{
-    res.render('about');
+    console.log(req.session);
+
+    res.render('about',{user:req.session.username});
 }) 
 app.get('/login/', (req,res) =>{
     res.render('login');
@@ -58,8 +67,9 @@ app.post('/login_request/', async (req,res) =>{
 
     let user = await users.find({username: username});
     user = await user.toArray();
-
+    console.log('user',user);
     if (user.length > 0) { 
+        req.session.username = user[0].username;
         res.redirect ('/about')
     } 
     else {
