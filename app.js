@@ -20,7 +20,7 @@ const { MongoClient } = require('mongodb');
 const uri = `mongodb+srv://${DB_USER}:${DB_PASS}@${DB_CLUSTER}.cipru.mongodb.net/OB?retryWrites=true&w=majority`; 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
-app.get('/', (req, res) => res.send('Hello from the Open World!'));
+app.get('/', (req, res) => res.render('home'));
 app.get('/about/', (req,res) =>{
     console.log(req.session);
 
