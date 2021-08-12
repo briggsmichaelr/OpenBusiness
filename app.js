@@ -40,7 +40,7 @@ app.post('/login_request/', async (req,res) =>{
     console.log('user',user);
     if (user.length > 0) { 
         req.session.username = user[0].username;
-        res.redirect ('/about')
+        res.redirect ('/profile')
     } 
     else {
         res.redirect ('/signup')
@@ -126,6 +126,20 @@ app.get('/:username/:organization',async (req,res)=>{
         res.render('organization',{admin:true,name:organization});
     } else{
         res.render('organization',{admin:false,name:organization});
+    }
+});
+app.get('/profile/' ,async (req,res)=>{
+    if(req.session.username){
+        let user = req.session.username;
+        await client.connect();
+        let db = client.db("OB");
+        let organizations = db.collection("organizations");
+        //Make sure organization does not currently exist
+        let Org = await organizations.find({admin:user});
+        Org = await Org.toArray();
+        res.render('profile',{user:user,organizations:Org})
+    } else {
+        res.redirect('/login');
     }
 })
 app.listen(port, () => console.log(`Open Business app listening at http://localhost:${port}`))
