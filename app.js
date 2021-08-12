@@ -19,36 +19,6 @@ const { MongoClient } = require('mongodb');
 
 const uri = `mongodb+srv://${DB_USER}:${DB_PASS}@${DB_CLUSTER}.cipru.mongodb.net/OB?retryWrites=true&w=majority`; 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-    
-
-async function main(){
-    //const client = new MongoClient(uri);
- 
-    try {
-        // Connect to the MongoDB cluster
-        await client.connect();
-        // Make the appropriate DB calls
-        //await  listDatabases(client);
-        let db = client.db("OB");
-        let users = db.collection("users");
-
-        let user = await users.find();
-        await user.forEach (c=>console.log(c));
-    } catch (e) {
-        console.error(e);
-    } finally {
-        console.log('about to close');
-        await client.close();
-    }
-}
-
-main().catch(console.error);
-/*async function listDatabases(client){
-    let databasesList = await client.db().admin().listDatabases();
- 
-    console.log("Databases:");
-    databasesList.databases.forEach(db => console.log(` - ${db.name}`));
-};*/
 
 app.get('/', (req, res) => res.send('Hello from the Open World!'));
 app.get('/about/', (req,res) =>{
@@ -107,9 +77,52 @@ app.post('/signup_request/', async (req,res) =>{
     } catch (e) {
         console.error(e);
     } finally {
-        console.log('about to close');
         await client.close();
     }
 })
+app.get('/create-organization/',(req,res)=>{
+    res.render('create');
+})
+app.post('/create-organization-endpoint/',async (req,res)=>{
+    let Org_to_be_inserted = req.body.Org_Name;
+    //check if user is logged in
+    if(req.session.username){
+        let user = req.session.username;
+        try {
+            // Connect to the MongoDB cluster
+            await client.connect();
+            let db = client.db("OB");
+            let organizations = db.collection("organizations");
+            //Make sure organization does not currently exist
+            let Org = await organizations.find({name: Org_to_be_inserted, admin:user});
+            Org = await Org.toArray();
+            if(Org.length === 0) {
+                await organizations.insertOne({name: Org_to_be_inserted,admin:user});
+                console.log(`Org ${Org_to_be_inserted} was just inserted!`);
+                res.redirect(`/${user}/${Org_to_be_inserted}`);
+            } else {
+                console.log(`Org ${Org_to_be_inserted} already exists!`)
+                res.redirect('/create-organization');
+            }
+        } catch (e) {
+            console.error(e);
+        } finally {
+            await client.close();
+        }
+    } else {
+        res.redirect('/login?logged_in=false&redirected_from=create-organization');
+    }
+})
 
+app.get('/:username/:organization',async (req,res)=>{
+    let admin = req.params.username;
+    let organization = req.params.organization;
+    let user = req.session.username;
+
+    if(user==admin){
+        res.render('organization',{admin:true,name:organization});
+    } else{
+        res.render('organization',{admin:false,name:organization});
+    }
+})
 app.listen(port, () => console.log(`Open Business app listening at http://localhost:${port}`))
