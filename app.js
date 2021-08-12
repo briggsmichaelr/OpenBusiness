@@ -20,7 +20,7 @@ const { MongoClient } = require('mongodb');
 const uri = `mongodb+srv://${DB_USER}:${DB_PASS}@${DB_CLUSTER}.cipru.mongodb.net/OB?retryWrites=true&w=majority`; 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
-app.get('/', (req, res) => res.send('Hello from the Open World!'));
+app.get('/', (req, res) => res.render('home'));
 app.get('/about/', (req,res) =>{
     console.log(req.session);
 
@@ -40,7 +40,7 @@ app.post('/login_request/', async (req,res) =>{
     console.log('user',user);
     if (user.length > 0) { 
         req.session.username = user[0].username;
-        res.redirect ('/about')
+        res.redirect ('/profile')
     } 
     else {
         res.redirect ('/signup')
@@ -127,6 +127,20 @@ app.get('/:username/:organization',async (req,res)=>{
 
     } else{
         res.render('organization',{admin:false,name:organization});
+    }
+});
+app.get('/profile/' ,async (req,res)=>{
+    if(req.session.username){
+        let user = req.session.username;
+        await client.connect();
+        let db = client.db("OB");
+        let organizations = db.collection("organizations");
+        //Make sure organization does not currently exist
+        let Org = await organizations.find({admin:user});
+        Org = await Org.toArray();
+        res.render('profile',{user:user,organizations:Org})
+    } else {
+        res.redirect('/login');
     }
 })
 app.post('/create-folder/',async (req,res)=>{
