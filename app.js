@@ -66,8 +66,11 @@ app.post('/signup_request/', async (req,res) =>{
         user = await user.toArray();
         
         console.log(user);
-        if(user.length === 0) {
+        if(user.length === 0) {            
             await users.insertOne({username: username});
+            user = await users.find({username: username});
+            user = await user.toArray();
+            req.session.username = user[0].username;
             console.log(`user ${username} was just inserted!`);
             res.redirect('/about');
         } else {
