@@ -122,10 +122,16 @@ app.get('/:username/:organization',async (req,res)=>{
     let organization = req.params.organization;
     let user = req.session.username;
 
+    await client.connect();
+    let db = client.db("OB");
+    let organizations = db.collection("organizations");
+    let Org = await organizations.find({admin:user,name:organization});
+    Org = await Org.toArray();
+    let content = Org[0].content;
     if(user==admin){
-        res.render('organization',{admin:true,name:organization});
+        res.render('organization',{admin:true,name:organization,content:content});
     } else{
-        res.render('organization',{admin:false,name:organization});
+        res.render('organization',{admin:false,name:organization,content:content});
     }
 });
 app.get('/profile/' ,async (req,res)=>{

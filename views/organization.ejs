@@ -10,6 +10,13 @@
         
         <div style="font-size: 22px; text-align: center;">
             Organization: <%=name%>
+
+            <% for(i in content) { %>
+                <div>
+                    <%= content[i].name %>
+                </div>
+                <div>type: <%= content[i].type %></div>
+            <% } %>
         </div>
         
         <% if (admin){%>
