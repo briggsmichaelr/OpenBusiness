@@ -19,7 +19,6 @@ const { MongoClient } = require('mongodb');
 
 const uri = `mongodb+srv://${DB_USER}:${DB_PASS}@${DB_CLUSTER}.cipru.mongodb.net/OB?retryWrites=true&w=majority`; 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-
 app.get('/', (req, res) => res.render('home'));
 app.get('/about/', (req,res) =>{
     console.log(req.session);
@@ -31,19 +30,23 @@ app.get('/login/', (req,res) =>{
 })
 app.post('/login_request/', async (req,res) =>{
     let username = req.body.username_name; 
-    await client.connect();
-    let db = client.db("OB");
-    let users = db.collection("users");
-
-    let user = await users.find({username: username});
-    user = await user.toArray();
-    console.log('user',user);
-    if (user.length > 0) { 
-        req.session.username = user[0].username;
-        res.redirect ('/profile')
-    } 
-    else {
-        res.redirect ('/signup')
+    try {
+        await client.connect();
+        let db = client.db("OB");
+        let users = db.collection("users");
+        let user = await users.find({username: username});
+        user = await user.toArray();
+        if (user.length > 0) { 
+            req.session.username = await user[0].username;
+            res.redirect ('/profile')
+        } 
+        else {
+            res.redirect ('/signup')
+        }
+    } catch (e) {
+        console.error(e);
+    } finally {
+        await client.close();
     }
 })
 app.get('/signup/',(req,res)=>{
