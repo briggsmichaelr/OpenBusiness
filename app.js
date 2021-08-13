@@ -148,4 +148,26 @@ app.get('/profile/' ,async (req,res)=>{
         res.redirect('/login');
     }
 })
+app.post('/create-folder/',async (req,res)=>{
+    //define admin as person who clicked create folder
+    let admin= req.session.username;
+    //connect to database
+    await client.connect();
+            let db = client.db("OB");
+            let organizations = db.collection("organizations");
+    //allow folders to be added to the data base of admin's organization
+    //allow admin to post folders
+    //
+    console.log('folder_to_be_inserted',req.body.folder_name);
+    console.log('folder_to_be_inserted',req.body.folder_name);
+
+
+    let folder_to_be_inserted = req.body.folder_name;
+    let org_name = req.body.organization_name
+    let Org = await organizations.updateOne({name:org_name, admin:admin}, {$set:{content:[{name:folder_to_be_inserted,type:'folder'}]}});
+    
+    await client.close();
+    res.send("okay")
+})
+
 app.listen(port, () => console.log(`Open Business app listening at http://localhost:${port}`))
