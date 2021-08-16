@@ -35,6 +35,20 @@ async function db_find(collection,parameters) {
         await client.close();
     }
 }
+async function db_insertOne(collection,parameters) {
+    try {
+        // Connect to the MongoDB cluster
+        await client.connect();
+        let db = client.db("OB");
+        let collection_temp = db.collection(collection);
+        let collection_filtered = await collection_temp.insertOne(parameters);
+        return collection_filtered;
+    } catch (error) {
+        console.error(error);
+    } finally {
+        await client.close();
+    }
+}
 //db_find("users",{username:"briggsmichaelr"})
 /*
     let user = await db_find("users",{username:username})
@@ -80,20 +94,20 @@ app.post('/signup_request/', async (req,res) =>{
     console.log(req.body);
     let username = req.body.username_name;
     console.log(username);
-    try {
+    let user = await db_find("users", {username: username});
+    //try {
         // Connect to the MongoDB cluster
-        await client.connect();
-        let db = client.db("OB");
-        let users = db.collection("users");
+       // await client.connect();
+       // let db = client.db("OB");
+        //let users = db.collection("users");
 
-        let user = await users.find({username: username});
-        user = await user.toArray();
+        //let user = await users.find({username: username});
+        //user = await user.toArray();
         
         console.log(user);
         if(user.length === 0) {            
-            await users.insertOne({username: username});
-            user = await users.find({username: username});
-            user = await user.toArray();
+            await db_insertOne("users", {username: username});
+            user = await db_find("users", {username: username});
             req.session.username = user[0].username;
             console.log(`user ${username} was just inserted!`);
             res.redirect('/about');
@@ -101,11 +115,11 @@ app.post('/signup_request/', async (req,res) =>{
             console.log(`user ${username} already exists!`)
             res.redirect('/login');
         }
-    } catch (e) {
-        console.error(e);
-    } finally {
-        await client.close();
-    }
+    //} catch (e) {
+      //  console.error(e);
+    //} finally {
+        //await client.close();
+    //}
 })
 app.get('/create-organization/',(req,res)=>{
     res.render('create');
