@@ -1,6 +1,6 @@
-const express = require('express')
+const express = require('express');
 var bodyParser = require('body-parser');
-var session = require('express-session')
+var session = require('express-session');
 const app = express();
 app.use(session(
     {secret: 'my secret',
@@ -19,6 +19,38 @@ const { MongoClient } = require('mongodb');
 
 const uri = `mongodb+srv://${DB_USER}:${DB_PASS}@${DB_CLUSTER}.cipru.mongodb.net/OB?retryWrites=true&w=majority`; 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
+async function db_find(collection,parameters) {
+    try {
+        // Connect to the MongoDB cluster
+        await client.connect();
+        let db = client.db("OB");
+        let collection_temp = db.collection(collection);
+        let collection_filtered = await collection_temp.find(parameters);
+        collection_filtered = await collection_filtered.toArray();
+        return collection_filtered;
+    } catch (error) {
+        console.error(error);
+    } finally {
+        await client.close();
+    }
+}
+//db_find("users",{username:"briggsmichaelr"})
+/*
+    let user = await db_find("users",{username:username})
+    if(user.length === 0) {            
+        await users.insertOne({username: username});
+        user = await users.find({username: username});
+        user = await user.toArray();
+        req.session.username = user[0].username;
+        console.log(`user ${username} was just inserted!`);
+        res.redirect('/about');
+    } else {
+        console.log(`user ${username} already exists!`)
+        res.redirect('/login');
+    }
+*/
+
 app.get('/', (req, res) => res.render('home'));
 app.get('/about/', (req,res) =>{
     console.log(req.session);
@@ -30,23 +62,12 @@ app.get('/login/', (req,res) =>{
 })
 app.post('/login_request/', async (req,res) =>{
     let username = req.body.username_name; 
-    try {
-        await client.connect();
-        let db = client.db("OB");
-        let users = db.collection("users");
-        let user = await users.find({username: username});
-        user = await user.toArray();
-        if (user.length > 0) { 
-            req.session.username = await user[0].username;
-            res.redirect ('/profile')
-        } 
-        else {
-            res.redirect ('/signup')
-        }
-    } catch (e) {
-        console.error(e);
-    } finally {
-        await client.close();
+    let user = await db_find("users",{username: username});
+    if (user.length > 0) { 
+        req.session.username = await user[0].username;
+        res.redirect ('/profile')
+    } else {
+        res.redirect ('/signup')
     }
 })
 app.get('/signup/',(req,res)=>{
