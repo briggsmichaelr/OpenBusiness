@@ -152,7 +152,20 @@ app.post('/create-folder/',async (req,res)=>{
     let folder_to_be_inserted = req.body.folder_name;
     let org_name = req.body.organization_name
     //connect to database
-    await db_updateOne("organizations",{name:org_name, admin:admin}, {$set:{content:[{name:folder_to_be_inserted,type:'folder'}]}});
+    try {
+        // Connect to the MongoDB cluster
+        await client.connect();
+        let db = client.db("OB");
+        let collection_temp = db.collection("organizations");
+        //let collection_updated = 
+        await collection_temp.updateOne({name:org_name, admin:admin},{$push:{content:{name:folder_to_be_inserted,type:'folder'}}});
+        //return collection_updated;
+    } catch (error) {
+        console.error(error);
+    } finally {
+        await client.close();
+    }
+    //await db_updateOne("organizations",{name:org_name, admin:admin}, {$set:{content:[{name:folder_to_be_inserted,type:'folder'}]}});
     res.redirect(`/${admin}/${org_name}`);
 })
 
