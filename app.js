@@ -140,6 +140,21 @@ app.get('/:username/:organization',async (req,res)=>{
         res.render('organization',{admin:false,name:organization,content:content});
     }
 });
+app.get('/:username/:organization/:file',async (req,res)=>{
+    let admin = req.params.username;
+    let organization = req.params.organization;
+    let file = req.params.file;
+    let user = req.session.username;
+
+    let Org = await db_find("organizations",{name:organization,admin:admin});
+    let content = Org[0].content;
+    console.log(content);
+    if(user==admin){
+        res.render('file',{admin:true,name:organization,content:content});
+    } else{
+        res.render('file',{admin:false,name:organization,content:content});
+    }
+});
 app.get('/profile/' ,async (req,res)=>{
     if(req.session.username){
         let user = req.session.username;

@@ -12,10 +12,10 @@
             Organization: <%=name%>
 
             <% for(i in content) { %>
-                <div>
+                <a href="./<%=name%>/<%=content[i].name%>"><div>
                     <%= content[i].name %>
                 </div>
-                <div>type: <%= content[i].type %></div>
+                <div>type: <%= content[i].type %></div></a>
             <% } %>
         </div>
         
