@@ -168,5 +168,26 @@ app.post('/create-folder/',async (req,res)=>{
     //await db_updateOne("organizations",{name:org_name, admin:admin}, {$set:{content:[{name:folder_to_be_inserted,type:'folder'}]}});
     res.redirect(`/${admin}/${org_name}`);
 })
-
+app.post("/create-file/",async (req,res)=>{
+    //define admin as person who clicked create folder
+    let admin= req.session.username;
+    let file_to_be_inserted = req.body.file_name;
+    let org_name = req.body.organization_name
+    //connect to database
+    try {
+        // Connect to the MongoDB cluster
+        await client.connect();
+        let db = client.db("OB");
+        let collection_temp = db.collection("organizations");
+        //let collection_updated = 
+        await collection_temp.updateOne({name:org_name, admin:admin},{$push:{content:{name:file_to_be_inserted,type:'file'}}});
+        //return collection_updated;
+    } catch (error) {
+        console.error(error);
+    } finally {
+        await client.close();
+    }
+    //await db_updateOne("organizations",{name:org_name, admin:admin}, {$set:{content:[{name:folder_to_be_inserted,type:'folder'}]}});
+    res.redirect(`/${admin}/${org_name}`);
+})
 app.listen(port, () => console.log(`Open Business app listening at http://localhost:${port}`))
