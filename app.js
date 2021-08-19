@@ -1,9 +1,12 @@
 const express = require('express');
 var bodyParser = require('body-parser');
 var session = require('express-session');
+var FileStore = require('session-file-store')(session);
+var fileStoreOptions = {path : './sessions/'};
 const app = express();
 app.use(session(
     {secret: 'my secret',
+    store: new FileStore(fileStoreOptions),
     resave: false,
     saveUninitialized: true,
     cookie: { secure: false }
