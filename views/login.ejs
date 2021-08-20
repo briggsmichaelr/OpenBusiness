@@ -7,12 +7,19 @@
     </head>
     <body>
         <%- include('navbar'); %> 
-        <h1>Sign In!</h1>
+    <style>
+        .page {
+            text-align: center;
+        }
+    </style>
+    <div class="page">
+    <h1>Sign In!</h1>
         <br>
         <form action="/login_request/" method="post">
             <div>Username:</div>
             <input type="text" name="username_name" placeholder="Username">
             <input type="submit">
+    
         </form>
         <br>
         <div>
@@ -20,5 +27,6 @@
                 Sign Up
             </button></a>
         </div>
+    </div>
     </body>
 </html>
