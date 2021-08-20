@@ -183,7 +183,6 @@ app.post('/create-folder/',async (req,res)=>{
     } finally {
         await client.close();
     }
-    //await db_updateOne("organizations",{name:org_name, admin:admin}, {$set:{content:[{name:folder_to_be_inserted,type:'folder'}]}});
     res.redirect(`/${admin}/${org_name}`);
 })
 app.post("/create-file/",async (req,res)=>{
@@ -205,7 +204,6 @@ app.post("/create-file/",async (req,res)=>{
     } finally {
         await client.close();
     }
-    //await db_updateOne("organizations",{name:org_name, admin:admin}, {$set:{content:[{name:folder_to_be_inserted,type:'folder'}]}});
     res.redirect(`/${admin}/${org_name}`);
 })
 app.listen(port, () => console.log(`Open Business app listening at http://localhost:${port}`))
