@@ -1,5 +1,6 @@
 const express = require('express');
 var bodyParser = require('body-parser');
+var favicon = require('serve-favicon');
 var session = require('express-session');
 var FileStore = require('session-file-store')(session);
 var fileStoreOptions = {path : './sessions/'};
@@ -11,8 +12,10 @@ app.use(session(
     saveUninitialized: true,
     cookie: { secure: false }
 }));
+
 const port = 3000
 app.use(express.static('public'));
+app.use(favicon(__dirname + '/public/img/icon.png'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.set('view engine', 'ejs');

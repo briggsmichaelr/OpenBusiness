@@ -1,0 +1,951 @@
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+ReferenceError: favicon is not defined
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+Fri, 20 Aug 2021 20:31:37 GMT body-parser deprecated undefined extended: provide extended option at app.js:19:20
+Error: Failed to lookup view "file" in views directory "/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/views"
+    at Function.render (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/express/lib/response.js:1012:7)
+    at /Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:157:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Error: ENOENT: no such file or directory, stat '/public/img/icon.png'
+    at Object.statSync (fs.js:1127:3)
+    at resolveSync (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:187:17)
+    at favicon (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/node_modules/serve-favicon/index.js:61:12)
+    at Object.<anonymous> (/Users/michaelbriggs/Desktop/OpenBusiness/OpenBusiness/app.js:18:9)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Object.<anonymous> (/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js:33:23)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30) {
+  errno: -2,
+  syscall: 'stat',
+  code: 'ENOENT',
+  path: '/public/img/icon.png'
+}
+Fri, 20 Aug 2021 20:36:32 GMT body-parser deprecated undefined extended: provide extended option at app.js:20:20
