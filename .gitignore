@@ -105,3 +105,6 @@ dist
 
 # Config Files
 secret.js
+
+#sessions
+sessions/
