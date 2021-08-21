@@ -1,6 +1,7 @@
 const express = require('express');
 var bodyParser = require('body-parser');
 var favicon = require('serve-favicon');
+const expressLayouts = require('express-ejs-layouts')
 var session = require('express-session');
 var FileStore = require('session-file-store')(session);
 var fileStoreOptions = {path : './sessions/'};
@@ -18,6 +19,8 @@ app.use(express.static('public'));
 app.use(favicon(__dirname + '/public/img/icon.png'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
+app.use(expressLayouts);
+app.set('layout', 'base-page')
 app.set('view engine', 'ejs');
 const {DB_USER, DB_PASS, DB_CLUSTER} = require('./secret.js')
 
