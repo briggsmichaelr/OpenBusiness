@@ -4,7 +4,7 @@
         <title>Profile <%=user%></title>
     </head>
     <body>
-        <div>Welcome <%=user%>!</div>
+        <div class="title" >Welcome <%=user%>!</div>
         <%for(i in organizations){%>
             <a href="/<%=organizations[i].admin%>/<%=organizations[i].name%>"><div><%=organizations[i].name%></div></a>
         <%}%>
