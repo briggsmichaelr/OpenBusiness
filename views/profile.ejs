@@ -4,7 +4,6 @@
         <title>Profile <%=user%></title>
     </head>
     <body>
-        <%- include('navbar'); %> 
         <div>Welcome <%=user%>!</div>
         <%for(i in organizations){%>
             <a href="/<%=organizations[i].admin%>/<%=organizations[i].name%>"><div><%=organizations[i].name%></div></a>
