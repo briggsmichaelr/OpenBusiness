@@ -1,6 +1,6 @@
 const express = require('express');
 var bodyParser = require('body-parser');
-var favicon = require('serve-favicon');
+//var favicon = require('serve-favicon');
 const expressLayouts = require('express-ejs-layouts')
 var session = require('express-session');
 var FileStore = require('session-file-store')(session);
@@ -16,7 +16,7 @@ app.use(session(
 
 const port = 3000
 app.use(express.static('public'));
-app.use(favicon(__dirname + '/public/img/icon.png'));
+//app.use(favicon(__dirname + '/public/img/favicon.ico'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(expressLayouts);
