@@ -1,22 +1,14 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>About Open Business</title>
-   </head>
-   <body>
-      <% if(user) {%>
-         <div class='title'>Hello <%=user%>, we are open!</div>
-      <% } else { %>
-         <div class='title'>We are open!</div>
-      <% } %>
-      <div>Update this code as you see fit!</div>
-      <div>OpenBusiness is a student/family made organisation that is devoted to being
-         honest and open. We are hoping to make templates for companies to use in order to 
-         become more open to their clients as well as employees.
-         We hope to make the future of companies more open in order to more easily discover and amend flaws
-         as well as have constant feedback from those interested in provicding feedback which will allow 
-         ideas to flow more freely and progress to be acheived more swiftly.
-      </div>
-      <a href="./create-organization"><button>Create Organization!</button></a>
-   </body>
-</html>
+<% if(user) {%>
+   <div class='title'>Hello <%=user%>, we are open!</div>
+<% } else { %>
+   <div class='title'>We are open!</div>
+<% } %>
+<div>Update this code as you see fit!</div>
+<div>OpenBusiness is a student/family made organisation that is devoted to being
+   honest and open. We are hoping to make templates for companies to use in order to 
+   become more open to their clients as well as employees.
+   We hope to make the future of companies more open in order to more easily discover and amend flaws
+   as well as have constant feedback from those interested in provicding feedback which will allow 
+   ideas to flow more freely and progress to be acheived more swiftly.
+</div>
+<a href="./create-organization"><button>Create Organization!</button></a>

@@ -1,48 +1,42 @@
-<html>
-    <header>
-        <title>
-            Organization: <%=name%>
-        </title>
-    </header>
-    <body>
-        <div style="margin:30px;">
 
-        
-        <div style="font-size: 22px; text-align: center;">
-            Organization: <%=name%>
+<div style="margin:30px;">
 
-            <% for(i in content) { %>
-                <a href="./<%=name%>/<%=content[i].name%>"><div>
-                    <%= content[i].name %>
-                </div>
-                <div>type: <%= content[i].type %></div></a>
-            <% } %>
-        </div>
-        
-        <% if (admin){%>
-            <div style="padding-top:280px;">
-                <div style="float: right;">
-                    <form action="/create-folder/" method='post'>
-                        <div>folder name</div>
-                        <input type="text" name="folder_name" placeholder="Folder Name">
-                        <input type="text" name="organization_name" hidden value="<%=name%>">
-                        <button>add folder</button>
-                    </form>
-                </div>
-                <div style="float: right;">
-                    <form action="/create-file/" method='post'>
-                        <div>file name</div>
-                        <input type="text" name="file_name" placeholder="File Name">
-                        <input type="text" name="organization_name" hidden value="<%=name%>">
-                        <button>add file</button>
-                    </form>
-                </div>
-                
-            </div>
-        <%} else {%>
-            <a href="/login"><button>login</button></a>
-        <%}%>
+
+<div style="font-size: 22px; text-align: center;">
+Organization: <%=name%>
+
+<% for(i in content) { %>
+    <a href="./<%=name%>/<%=content[i].name%>"><div>
+        <%= content[i].name %>
     </div>
+    <div>type: <%= content[i].type %></div></a>
+<% } %>
+</div>
+
+<% if (admin){%>
+<div style="padding-top:280px;">
+    <div style="float: right;">
+        <form action="/create-folder/" method='post'>
+            <div>folder name</div>
+            <input type="text" name="folder_name" placeholder="Folder Name">
+            <input type="text" name="organization_name" hidden value="<%=name%>">
+            <button>add folder</button>
+        </form>
+    </div>
+    <div style="float: right;">
+        <form action="/create-file/" method='post'>
+            <div>file name</div>
+            <input type="text" name="file_name" placeholder="File Name">
+            <input type="text" name="organization_name" hidden value="<%=name%>">
+            <button>add file</button>
+        </form>
+    </div>
+    
+</div>
+    <%} else {%>
+    <a href="/login"><button>login</button></a>
+    <%}%>
+</div>
              
     </body>
 </html>

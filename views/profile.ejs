@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Profile <%=user%></title>
-    </head>
-    <body>
-        <div class="title" >Welcome <%=user%>!</div>
-        <%for(i in organizations){%>
-            <a href="/<%=organizations[i].admin%>/<%=organizations[i].name%>"><div><%=organizations[i].name%></div></a>
-        <%}%>
-        <a href="./create-organization"><button>Create Organization!</button></a>
-   </body>
-</html>
+<div class="title" >Welcome <%=user%>!</div>
+<%for(i in organizations){%>
+    <a href="/<%=organizations[i].admin%>/<%=organizations[i].name%>"><div><%=organizations[i].name%></div></a>
+<%}%>
+<a href="./create-organization"><button>Create Organization!</button></a>
