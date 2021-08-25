@@ -3,3 +3,21 @@
     margin:40px;
     text-align: center;
 }
+#navbar {
+    background-color: cadetblue; 
+    padding: 10px 8px; 
+    width:100%;
+    margin: -8px 0 50px -8px;
+}
+#navbar a {
+    margin-right: 40px; 
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px;
+}
+#navbar .login-button {
+    float: right;
+}
+#navbar #home {
+    margin-left: 40px;
+}
