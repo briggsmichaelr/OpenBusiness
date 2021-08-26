@@ -103,7 +103,7 @@ app.get('/team/',function(req,res) {
 app.post('/signup_request/', async (req,res) =>{
     let username = req.body.username_name;
     let user = await db_find("users", {username: username});
-    if(user.length === 0) {            
+    if(user&&user.length === 0) {            
         await db_insertOne("users", {username: username});
         req.session.username = username;
         console.log(`user ${username} was just inserted!`);
