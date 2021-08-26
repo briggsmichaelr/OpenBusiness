@@ -83,7 +83,9 @@ app.get('/login/', (req,res) =>{
     res.render('login');
 })
 app.post('/login_request/', async (req,res) =>{
+    console.log ("got into login_request")
     let username = req.body.username_name; 
+
     let user = await db_find("users",{username: username});
     if (user.length > 0) { 
         req.session.username = await user[0].username;
