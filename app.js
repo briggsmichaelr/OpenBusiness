@@ -84,8 +84,8 @@ app.get('/login/', (req,res) =>{
 })
 app.post('/login_request/', async (req,res) =>{
     console.log ("got into login_request")
-    let username = req.body.username_name; 
-
+    let username = req.body.username_name;
+    console.log (username)    
     let user = await db_find("users",{username: username});
     if (user.length > 0) { 
         req.session.username = await user[0].username;
@@ -141,7 +141,11 @@ app.get('/:username/:organization',async (req,res)=>{
     let user = req.session.username;
 
     let Org = await db_find("organizations",{name:organization,admin:admin});
-    let content = Org[0].content;
+    console.log ('/Org',Org)
+    console.log (typeof(Org))
+    if (!Org[0]) {
+        content = [{name:"there is no content", type:"null"}]}
+        else {content = Org[0].content}
     if(user==admin){
         res.render('organization',{admin:true,name:organization,content:content});
     } else{
